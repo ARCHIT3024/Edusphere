@@ -332,11 +332,11 @@ export default function HomePage() {
               </p>
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 bg-[#2E75B6] rounded-full flex items-center justify-center text-white font-bold">
-                  SV
+                  HR
                 </div>
                 <div>
-                  <p className="font-bold text-gray-900">Shiva Yadav</p>
-                  <p className="text-sm text-gray-600">Managing Director</p>
+                  <p className="font-bold text-gray-900">HR Team</p>
+                  <p className="text-sm text-gray-600">Human Resource</p>
                 </div>
               </div>
             </motion.div>

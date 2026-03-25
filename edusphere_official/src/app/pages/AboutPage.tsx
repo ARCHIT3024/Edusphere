@@ -250,7 +250,7 @@ export default function AboutPage() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
               {
                 name: "Shilpi Sharma",
@@ -263,6 +263,36 @@ export default function AboutPage() {
                 role: "Marketing Director",
                 quote:
                   "Great education deserves great reach — our mission is to connect every learner with the opportunities they deserve.",
+              },
+              {
+                name: "Sakshima Bare",
+                role: "Designing Head",
+                quote:
+                  "Design is the silent ambassador of our brand — every pixel tells our story of excellence in education.",
+              },
+              {
+                name: "Ashish Yadav",
+                role: "Media Head",
+                quote:
+                  "Powerful stories deserve powerful visuals — we bring Edusphere's impact to life through compelling media.",
+              },
+              {
+                name: "Shristi Singh",
+                role: "Sales Head",
+                quote:
+                  "Every conversation is an opportunity to transform a life — we connect the right learners with the right programs.",
+              },
+              {
+                name: "Aryan Raj",
+                role: "Strategic Head",
+                quote:
+                  "Strategy turns vision into action — we chart the course that keeps Edusphere ahead of the curve.",
+              },
+              {
+                name: "Sayyed Mohammed Fahad",
+                role: "Trainings and Development Head",
+                quote:
+                  "Training is the backbone of excellence — we ensure every program delivers real-world skills and lasting impact.",
               },
             ].map((member, index) => (
               <motion.div
